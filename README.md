@@ -175,6 +175,20 @@ Darwin-GRC-Multi-Framework-Control-Crosswalk/
 ├── remediation_plan.md
 └── evidence/
 
+## Evidence Screenshots
+
+### Multi-Framework Control Crosswalk
+![Multi-Framework Control Crosswalk](evidence/multi-framework-control-crosswalk.png)
+
+### Framework Overlap Matrix
+![Framework Overlap Matrix](evidence/framework-overlap-matrix.png)
+
+### Common Control Library
+![Common Control Library](evidence/common-control-library.png)
+
+### Gap Analysis
+![Gap Analysis](evidence/gap-analysis.png)
+
 ---
 
 ## Skills Demonstrated
