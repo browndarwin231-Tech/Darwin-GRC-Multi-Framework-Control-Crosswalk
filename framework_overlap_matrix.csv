@@ -1,0 +1,21 @@
+Overlap ID,Control Area,SOC 2,ISO 27001,NIST CSF 2.0,NIST SP 800-53,PCI DSS,HIPAA,GDPR,Overlap Level,Key Difference,Reusable Evidence
+OV-001,User Access Management,High,High,High,High,High,High,High,High,Each framework defines scope and access expectations differently,Access requests approvals account inventory termination records
+OV-002,Privileged Access,High,High,High,High,High,High,High,High,Frequency and evidence requirements vary by environment and framework,Privileged account inventory access reviews business justification approvals
+OV-003,Multi-Factor Authentication,Medium,High,High,High,High,Medium,Medium,Medium,MFA applicability differs by system role risk and regulatory context,MFA enrollment reports configuration screenshots exception approvals
+OV-004,Security Awareness Training,High,High,High,High,High,High,High,High,Training cadence content and role-based expectations differ,Training completion reports awareness materials acknowledgment records
+OV-005,Audit Logging,High,High,High,High,High,High,Medium,High,Retention review frequency and logging scope differ,SIEM reports log source inventory review records incident tickets
+OV-006,Change Management,High,High,Medium,High,High,Medium,Medium,Medium,Some frameworks address change control directly while others address it through broader security governance,Change tickets test results approvals implementation records
+OV-007,Vulnerability Management,High,High,High,High,High,Medium,Medium,High,Remediation timelines and required evidence vary,Vulnerability scan reports aging reports remediation tickets risk acceptance
+OV-008,Incident Response,High,High,High,High,High,High,High,High,Notification timelines and regulatory reporting obligations differ,Incident response plan tickets investigation records lessons learned
+OV-009,Incident Response Testing,Medium,High,High,High,Medium,Medium,Medium,Medium,Testing expectations vary by framework and organizational risk,Tabletop exercise reports participant lists corrective action trackers
+OV-010,Risk Assessment,High,High,High,High,High,High,High,High,Risk methodologies and required documentation differ,Risk registers risk assessments treatment plans management approvals
+OV-011,Third-Party Risk,High,High,High,High,High,High,High,High,Vendor requirements vary based on industry data type and contractual obligations,Vendor questionnaires assessments contracts reassessment records
+OV-012,Encryption,High,High,High,High,High,High,High,High,Encryption scope and applicability differ by data type and transmission context,TLS configuration encryption standards key management evidence
+OV-013,Backup and Recovery,High,High,High,High,High,Medium,Medium,High,Recovery expectations may be more explicit in operational security frameworks,Backup reports restoration tests recovery logs
+OV-014,Policy Management,High,High,High,High,High,High,High,High,Approval review cadence and required policy topics differ,Policies approval records revision history review schedule
+OV-015,Asset Management,Medium,High,High,High,High,Medium,Medium,Medium,Asset definitions and inventory scope vary,Asset inventory ownership classification lifecycle records
+OV-016,Data Protection,High,High,High,High,High,High,High,High,Data categories and regulatory scope differ significantly,Data classification encryption DLP access control evidence
+OV-017,Privacy Governance,Low,Medium,Medium,Medium,Low,Medium,High,Low,Privacy-specific obligations are much more explicit in GDPR,Privacy policies data inventory DPIA records lawful basis documentation
+OV-018,Data Retention,Medium,High,Medium,High,High,High,High,High,Retention periods and disposal requirements depend on law contract and business need,Retention schedule deletion records disposal evidence
+OV-019,Access Review,High,High,High,High,High,High,High,High,Review cadence and population scope vary,Access review reports manager certifications removal evidence
+OV-020,Remediation Tracking,High,High,High,High,High,High,High,High,Closure criteria and formal tracking mechanisms differ,POA&M audit findings remediation tracker validation evidence
